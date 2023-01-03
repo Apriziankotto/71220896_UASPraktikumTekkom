@@ -1,0 +1,20 @@
+print("===== Selamat datang di XXV =====")
+str(input("Masukkan tanggal hari ini: "))
+print("== Berikut genre film yang tersedia ==")
+print("1. Horror")
+print("2. Action")
+pilihan= int(input("Silakan pilih nonton film bergenre apa:"))
+if pilihan == 1:
+    print("1. The Devil's Light")
+    print("2. Pengabdi Setan")
+    int(input("Silahkan pilih mau nonton film apa:"))
+    str(input("Mau memesan tiket sebanyak: "))
+    print("Total yang harus dibayar adalah Rp.73.500")
+elif pilihan == 2:
+    print("1. Black Panther: Wakanda Forever")
+    print("2. The Way of Water")
+    int(input("Silahkan pilih mau nonton film apa:"))
+    str(input("Mau memesan tiket sebanyak: "))
+    print("Total yang harus dibayar adalah Rp.237.500")
+else:
+    print("Pilihan yang anda pilih tidak tersedia di bioskop ini")
